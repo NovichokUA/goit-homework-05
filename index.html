@@ -399,8 +399,8 @@
 					<p class="title-footer-form">Subscribe</p>
 					<div class="container-footer-btn">
 						<form action="#">
-							<label for="">
-								<input type="email" name="" placeholder="E-mail" class="title-footer-input" />
+							<label>
+								<input type="email" placeholder="E-mail" class="title-footer-input" />
 							</label>
 						</form>
 						<button type="button" class="footer-button-send"
@@ -421,7 +421,7 @@
 						<use href="./images/svg-sprit/icon.svg#icon-Vector-close"></use>
 					</svg>
 				</button>
-				<form action="" class="container-form">
+				<form action="#" class="container-form">
 					<p class="title-form">Leave your contacts and we will call you back</p>
 					<label for="user-name" class="user-name">Name</label>
 					<div class="container-name">
@@ -439,7 +439,7 @@
 					</div>
 					<label for="email" class="user-name">Email</label>
 					<div class="container-name">
-						<input type="email" name="Email" id="Email" class="description-input-user" />
+						<input type="email" id="email" class="description-input-user" />
 						<svg width="18" height="24" class="icon-person">
 							<use href="./images/svg-sprit/icon.svg#icon-email-black"></use>
 						</svg>
@@ -448,19 +448,19 @@
 					<label for="comment" class="user-name">Comment</label>
 					<textarea name="Comment" id="comment" placeholder="Text input" class="textarea"></textarea>
 					<div class="container-checkbox">
-						<label for="" class="container-agree">
-							<input type="checkbox" value="agreement" class="visually-hidden" />
-							<div class="checkbox-replace-container">
-								<svg width="16" height="16" class="checkbox-replace">
-									<use href="./images/svg-sprit/icon.svg#icon-Checkbox"></use>
-								</svg>
+						<input type="checkbox" id="checkbox-agree" value="agreement" class="visually-hidden" />
+						<div class="checkbox-replace-container">
+							<svg width="16" height="16" class="checkbox-replace">
+								<use href="./images/svg-sprit/icon.svg#icon-Checkbox"></use>
+							</svg>
 
-								<svg width="10" height="8" class="checkbox-castom">
-									<use href="./images/svg-sprit/icon.svg#icon-Vector-property"></use>
-								</svg>
-							</div>
-							I accept the terms and conditions of the &nbsp; <span class="change-text"> Privacy Policy</span>
-						</label>
+							<svg width="10" height="8" class="checkbox-castom">
+								<use href="./images/svg-sprit/icon.svg#icon-Vector-property"></use>
+							</svg>
+							<label for="checkbox-agree" class="container-agree"
+								>I accept the terms and conditions of the &nbsp; <span class="change-text"> Privacy Policy</span>
+							</label>
+						</div>
 					</div>
 				</form>
 				<button type="submit" class="modal-btn">Send</button>
