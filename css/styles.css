@@ -596,14 +596,12 @@ button:focus {
     align-items: center;
 }
 
-.container-footer-btn-input {}
-
 .footer-button-send {
     color: var(--WHITE, #FFF);
     text-align: center;
 
     /* Button Text */
-    font-family: Roboto sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
