@@ -734,11 +734,6 @@ input::placeholder {
     fill: #ffffff;
 }
 
-input,
-textarea {
-    outline: none;
-}
-
 .title-form {
     color: #2E2F42;
     text-align: center;
@@ -809,10 +804,6 @@ input:focus {
 input:focus+svg {
     fill: #4D5AE5;
 }
-
-/* .container-name:focus-within .icon-person {
-    fill: #4D5AE5;
-} */
 
 .container-textarea-user-name {
     margin-bottom: 16px;
