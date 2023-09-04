@@ -596,6 +596,8 @@ button:focus {
     align-items: center;
 }
 
+.container-footer-btn-input {}
+
 .footer-button-send {
     color: var(--WHITE, #FFF);
     text-align: center;
@@ -608,19 +610,26 @@ button:focus {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.04em;
-    display: inline-flex;
+    display: flex;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     border-radius: 4px;
-    background: var(--IRIS, #4D5AE5);
+    background-color: var(--IRIS, #4D5AE5);
     fill: var(--WHITE, #FFF);
+    min-width: 165px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+}
+
+.icon-footer-button {
+    margin-left: 16px;
 }
 
 .title-footer-form {
     color: var(--WHITE, #FFF);
-    padding-bottom: 16px;
+    margin-bottom: 16px;
     /* Body Medium */
     font-family: Roboto;
     font-size: 16px;
@@ -632,23 +641,29 @@ button:focus {
 }
 
 .title-footer-input {
+    padding-left: 16px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     width: 264px;
+    color: var(--white, #ffffff);
     height: 40px;
-    background: var(--NAVY-BLUE, #2E2F42);
+    background-color: transparent;
     border-radius: 4px;
     border: 1px solid var(--WHITE, #FFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-input::placeholder .title-footer-input {
+input::placeholder {
     color: var(--WHITE, #FFF);
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 2;
     /* 200% */
-    letter-spacing: 0.48px;
+    letter-spacing: 0.04em;
 }
 
 /* модальне вікно */
@@ -656,7 +671,7 @@ input::placeholder .title-footer-input {
 /* --------------- */
 
 .backdrop {
-    opacity: 0.75;
+    opacity: 1;
     background: var(--NAVY-BLUE, #2E2F42);
     position: fixed;
     top: 0;
