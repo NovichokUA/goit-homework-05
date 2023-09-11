@@ -669,7 +669,7 @@ input::placeholder {
 /* --------------- */
 
 .backdrop {
-    opacity: 0.75;
+    opacity: 1;
     background-color: rgba(46, 47, 66, 0.4);
     position: fixed;
     top: 0;
